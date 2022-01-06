@@ -1,0 +1,5 @@
+beautifulsoup4==4.10.0
+pwn==1.0
+pwntools==4.7.0
+requests==2.25.1
+texttable==1.6.3
