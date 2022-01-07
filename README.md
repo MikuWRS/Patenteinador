@@ -1,7 +1,7 @@
 # Patenteinador
-Patenteinador es un script en Python3 que permite la busqueda de datos de patentes chilenas por medio de la pagina https://www.patentechile.com
+Patenteinador es un script en Python3 que permite la busqueda de datos de patentes chilenas por medio de la página https://www.patentechile.com
 
-# Instalacion
+# Instalación
 ```bash
 git clone https://github.com/MikuWRS/Patenteinador
 cd Patenteinador
@@ -26,7 +26,7 @@ python3 patenteinador.py -l lista.txt
 python3 patenteinador.py -l lista.txt -e
 ```
 # Notas/Issues
-- Por algun motivo si se utiliza el parametro "-p" junto con una patente en mayusculas, sys.argv no reconoce el string de la patente.
+- Por algún motivo si se utiliza el parametro "-p" junto con una patente en mayusculas, sys.argv no reconoce el string de la patente.
 Ejemplo
 ```bash
 python3 patenteinador.py -p "AABB00" -e
@@ -40,4 +40,4 @@ Sin embargo si la lista posee las patentes en mayusculas no ocurre este error.
 ```bash
 python3 patenteinador.py -p -e "AABB00" 
 ```
-El programa fallara.
+El programa fallará.
